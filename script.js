@@ -39,7 +39,7 @@ console.log(openedCards.map(card => card.dataset.cardId));
   setTimeout(() => {
     openedCards[0].classList.remove('opened');
     openedCards[1].classList.remove('opened');
-  }, 1500);
+  }, 2500);
 
   }
   if (cards.querySelectorAll('.front.checked').length === 16){
