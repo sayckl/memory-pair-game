@@ -34,7 +34,7 @@ console.log(openedCards.map(card => card.dataset.cardId));
   setTimeout(() => {
     firstCard.classList.add('checked');
     secondCard.classList.add('checked');
-  }, 500);
+  }, 1500);
 }
   setTimeout(() => {
     openedCards[0].classList.remove('opened');
