@@ -36,10 +36,7 @@ console.log(openedCards.map(card => card.dataset.cardId));
     secondCard.classList.add('checked');
   }, 1500);
 }
-  setTimeout(() => {
-    openedCards[0].classList.remove('opened');
-    openedCards[1].classList.remove('opened');
-  }, 2500);
+
 
   }
   if (cards.querySelectorAll('.front.checked').length === 16){
